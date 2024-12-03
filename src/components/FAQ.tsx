@@ -21,7 +21,7 @@ const FAQList: FAQProps[] = [
   {
     question: "Wie trete ich einer Gruppe bei?",
     answer:
-      "Gehe auf die Profilseite und scrolle zu Deine Gruppe, dort drückst du auf GRuppe beitreten und gibts den Namen der Gruppe ein, dann nach wird deine Anfrage verschickt.",
+      "Gehe auf die Profilseite und scrolle zu Deine Gruppe, dort drückst du auf Gruppe beitreten und gibts den Namen der Gruppe ein, dann nach wird deine Anfrage verschickt.",
     value: "item-2",
   },
   {
@@ -33,7 +33,7 @@ const FAQList: FAQProps[] = [
   {
     question: "Was bringt mir die App?",
     answer:
-      "Du kannst deinen persöhnlichen Alkoholkonsum aufzechnen und mit deinen Freunden vergleichen. Zudem kannst du Trinkspiele auf der App spielen.",
+      "Du kannst deinen persöhnlichen Alkoholkonsum aufzeichnen und mit deinen Freunden vergleichen. Zudem kannst du Trinkspiele auf der App spielen.",
     value: "item-4",
   },
 ];
