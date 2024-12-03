@@ -19,13 +19,13 @@ export const Services = () => {
     {
       title: "Promille",
       description:
-        "Zeigt dir in einem Diagramm wie hoch deine Promille über die woche waren",
+        "Zeigt dir in einem Diagramm wie hoch deine Promille über die Woche waren",
       icon: <FaPercentage size={70} color={iconColor} />, // Use iconColor here
     },
     {
       title: "Getränke",
       description:
-        "Zeigt dir sortiert nach Tage und Getränksorte die Getränke die du konsumiert hast",
+        "Zeigt dir sortiert nach Tagen und Getränksorte die Getränke die du konsumiert hast",
       icon: <IoMdBeer size={70} color={iconColor} />, // Use iconColor here
     },
     {

@@ -46,7 +46,7 @@ export const Features = () => {
     {
       title: "Drinks",
       description:
-        "Kombiniert dein Profil und deine Einstellungen in eine Ansicht, sodass du den Promillerechner auf dich zuschneiden kannst oder auch die Benachrichtigungen deaktivieren kannst",
+        "Durch das hinzufügen von Getränken steigt dein Promillewert, sowie das ranking deiner Gruppe sofern du in einer bist.",
       icon: <IoIosBeer size={60} color={iconColor} />,
     },
     {
@@ -113,7 +113,9 @@ export const Features = () => {
                 {title}
               </CardTitle>
             </CardHeader>
-            <CardContent>{description}</CardContent>
+            <CardContent>
+              <div className="text-center">{description}</div>
+            </CardContent>
           </Card>
         ))}
       </div>

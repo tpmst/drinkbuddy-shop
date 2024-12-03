@@ -33,14 +33,14 @@ export const RegisterForTest = () => {
       message: message,
     };
 
-    await createRegisterForTest(newAuftrag); // Diese Funktion sollte definiert sein, um Daten zu verarbeiten
+    await createRegisterForTest(newAuftrag); // Create fields in Firestore
     setAlert({
       title: "Erfolg!",
       description: "Deine Nachricht wurde erfolgreich gesendet.",
       type: "success",
     });
 
-    // Felder zurücksetzen
+    // Resets the field in UI
     setTel("");
     setEmail("");
     setMessage("");

@@ -89,7 +89,7 @@ export const Pricing = () => {
     description: string;
     type: "success" | "error";
   } | null>(null);
-  const [loading, setLoading] = useState<string | null>(null); // State für das Laden
+  const [loading, setLoading] = useState<string | null>(null);
   const analytics = getAnalytics();
 
   const handleClick = async (

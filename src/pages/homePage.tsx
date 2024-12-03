@@ -11,7 +11,6 @@ import { ContactUS } from "@/components/ContactUs";
 import { ScrollToTop } from "../components/ScrollToTop";
 import { Services } from "../components/Services";
 
-
 import { getAnalytics, logEvent } from "firebase/analytics";
 import "./homePage.css";
 

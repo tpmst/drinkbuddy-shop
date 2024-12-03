@@ -27,3 +27,4 @@ dist-ssr
 .firebase
 FirebaseSetup.tsx
 .firebaserc
+DataBase.tsx
